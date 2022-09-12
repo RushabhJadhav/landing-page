@@ -1,0 +1,492 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+strong {
+    font-weight: 600;
+}
+.bar {
+    height: 8px;
+    width: 70px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-image: linear-gradient(180deg, #c5093b 0%, #e9072d 100%);
+}
+/* container one */
+#container-1 {
+    position: relative;
+}
+#background-1 {
+    width: 100%;
+}
+#header-text {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    margin: auto;
+    width: 70%;
+    height: 20%;
+    font-family: "Libre Franklin", sans-serif;
+    text-align: center;
+    color: #ffffff;
+    font-size: 3.5em;
+    font-weight: 400;
+    user-select: none;
+}
+/* container two */
+#container-2 {
+    height: 100%;
+}
+.container-text {
+    font-family: "Libre Franklin", sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+    width: 80%;
+    margin: 50px auto 0 auto;
+}
+#inner-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    background-image: linear-gradient(0deg, #595959 0%, #3b3b3b 99%, #3b3b3b 100%);
+    height: 100%;
+    width: 70%;
+    margin: 50px auto;
+    box-shadow: 0 25px 10px gainsboro;
+}
+.stats-div {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+}
+.num {
+    font-size: 3.3em;
+    font-weight: bolder;
+    font-family: "Libre Franklin", sans-serif;
+    align-self: center;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    color: whitesmoke;
+    letter-spacing: -1px;
+    border: 8px solid #ffffff;
+    border-radius: 50%;
+    padding-top: 40px
+}
+.descr {
+    width: 90%;
+    align-self: center;
+    justify-self: flex-end;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: "Libre Franklin", sans-serif;
+    color: #ffffff;
+}
+/* container three */
+#background-container {
+    background-image: linear-gradient(0deg, #595959 0%, #3b3b3b 99%, #3b3b3b 100%);
+    margin-top: 50px;
+    height: 100%;
+    box-shadow: 0 20px 70px #595959;
+}
+#img-text-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 40px;
+    width: 70%;
+    background-color: #ffffff;
+    margin: auto;
+    border-radius: 25px;
+    box-shadow: 0 20px 70px #595959;
+}
+#table-img {
+    margin-top: 120px;
+}
+#table-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+table {
+    width: 90%;
+}
+th, td {
+    color: black;
+    font-family: "Libre Franklin", sans-serif;
+    letter-spacing: -1px;
+    padding: 20px;
+}
+th {
+    font-size: 1.5em;
+}
+tr > td:last-child {
+    font-weight: bold;
+}
+.align-td {
+    text-align: center;
+}
+#includes {
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    width: 70%;
+    margin: 20px auto;
+}
+#buy-now {
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    background-image: linear-gradient(0deg, #a10f39 0%, #e5092f 100%);
+    align-self: center;
+    justify-self: center;
+    cursor: pointer;
+    
+}
+/* container four */
+#offer-div {
+    background-image: linear-gradient(180deg, #c5093b 0%, #e9072d 100%);
+    border-radius: 20px;
+    width: 70%;
+    margin: 150px auto 100px auto;
+}
+#money-back {
+    color: #ffffff;
+    padding: 50px;
+    font-weight: 100;
+    text-align: center;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 3.5em;
+}
+/* container five */
+#container-5 {
+    background-image: url("image/bg-2-new.jpeg");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 950px;
+}
+#header-5 {
+    font-size: 3.5em;
+    font-weight: bold;
+}
+#question-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+    height: 80%;
+    margin: auto none;
+}
+#ad-button {
+    padding: 25px 35px;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    background-image: linear-gradient(0deg, #a10f39 0%, #e5092f 100%);
+    align-self: center;
+    border-radius: 50px;
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+}
+#list-container {
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+#lists li {
+    font-size: 2em;
+    font-family: "Libre Franklin", sans-serif;
+    padding: 30px none;
+    padding-top: 25px;
+}
+/* container six */
+#got-question {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(0deg, #595959 0%, #3b3b3b 99%, #3b3b3b 100%);
+    box-shadow: 0 25px 10px gainsboro;
+    width: 80%;
+    height: 250px;
+    margin: auto;
+    position: relative;
+    bottom: 90px;
+    border-radius: 30px;
+}
+#question-text {
+    color: #ffffff;
+    font-size: 2.3em;
+    font-weight: bold;
+    width: 80%;
+    font-family: "Libre Franklin", sans-serif;
+    text-align: center;
+}
+#contact-btn {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    align-self: center;
+    background-image: linear-gradient(0deg, #a10f39 0%, #e5092f 100%);
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+    .bar {
+        height: 7px;
+        width: 50px;
+    }
+    /* container one */
+    #header-text {
+        font-size: 2.5em;
+    }
+    /* container two */
+    .container-text {
+        font-size: 2em;
+    }
+    #inner-container {
+        width: 85%;
+    }
+    /* container three */
+    #img-text-container {
+        width: 80%;
+    }
+    #table-img {
+        width: 40%;
+        height: auto;
+        object-fit: contain;
+        justify-self: flex-end;
+    }
+    th, td {
+        font-size: 1.2em;
+        padding: 10px;
+    }
+    #includes {
+        width: 90%;
+        font-size: .8em;
+    }
+    #buy-now {
+        font-size: 0.7em;
+        padding: 5px 15px;
+    }
+    /* container four */
+    #offer-div {
+        width: 90%;
+    }
+    #money-back {
+        font-size: 2.5em;
+    }
+    /* container five */
+    #container-5 {
+        height: 850px;
+        background-size: contain;
+    }
+    #question-div {
+        height: 50%;
+        width: 50%;
+    }
+    #header-5 {
+        font-size: 1.5em;
+        margin-top: 150px;
+    }
+    #lists li {
+        font-size: 1.2em;
+    }
+    #ad-button {
+        font-size: 1em;
+        padding: 15px 25px;
+    }
+    /* container six */
+    #question-text {
+        font-size: 1.5em;
+    }
+    #contact-btn {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .bar {
+        height: 5px;
+        width: 40px;
+    }
+    /* container one */
+    #header-text {
+        font-size: 1.5em;
+    }
+    /* container two */
+    .container-text {
+        font-size: 1.5em;
+    }
+    .stats-div {
+        height: 250px;
+    }
+    .num {
+        font-size: 2em;
+        height: 100px;
+        width: 100px;
+        padding-top: 28px;
+        border: 5px solid #ffffff;
+    }
+    .descr {
+        font-size: 1em;
+    }
+    /* container three */
+    #background-container {
+        box-shadow: 0 5px 10px #595959;
+    }
+    th, td {
+        font-size: 1em;
+        padding: 8px;
+    }
+    #includes {
+        font-size: .7em;
+    }
+    #buy-now {
+        font-size: 0.5em;
+    }
+    /* container four */
+    #money-back {
+        font-size: 2em;
+    }
+    /* container five */
+    #container-5 {
+        height: 630px;
+    }
+    #header-5 {
+        font-size: 1em;
+        margin-top: 80px;
+        margin-bottom: 0;
+    }
+    ul {
+        margin-top: 0;
+    }
+    #lists li {
+        font-size: .9em;
+    }
+    #ad-button {
+        font-size: .7em;
+        padding: 10px 20px;
+    }
+    /* container six */
+    #got-question {
+        height: 150px;
+        bottom: 50px;
+    }
+    #question-text {
+        font-size: 1em;
+    }
+    #contact-btn {
+        font-size: .7em;
+        padding: 5px 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    /* container one */
+    #header-text {
+        font-size: .8em;
+    }
+    /* container two */
+    .container-text {
+        font-size: 1em;
+    }
+    #inner-container {
+        flex-direction: column;
+        justify-content: space-around;
+        border-radius: 15px;
+        box-shadow: 0 10px 10px gainsboro;
+    }
+    .stats-div {
+        height: 100%;
+    }
+    .num {
+        font-size: 3.3em;
+        height: 150px;
+        width: 150px;
+        padding-top: 40px;
+    }
+    .descr {
+        width: 80%;
+    }
+    .stats-div:last-child {
+        margin-bottom: 50px;
+    }
+    /* container three */
+    #img-text-container {
+        border-radius: 15px;
+        width: 80%;
+    }
+    #table-img {
+        display: none;
+    }
+    #table-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    th, td {
+        font-size: .7em;
+        padding: 10px;
+    }
+    #includes {
+        font-size: .5em;
+    }
+    #buy-now {
+        margin-bottom: 20px;
+    }
+    /* container four */
+    #money-back {
+        font-size: 1;
+    }
+    #offer-div {
+        margin-bottom: 0;
+    }
+    /* container five */
+    #container-5 {
+        background-image: none;
+        margin-bottom: 50px;
+        height: 100%;
+    }
+    #header-5 {
+        margin: 0 auto auto auto;
+        text-align: center;
+    }
+    #question-div {
+        height: 80%;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #list-container {
+        width: 90%;
+    }
+    #lists li {
+        font-size: .5;
+    }
+    #lists li:first-of-type {
+        padding-top: 0;
+    }
+    /* container six */
+    #got-question {
+        box-shadow: 0 1opx 10px gainsboro;
+        bottom: 0;
+        border-radius: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
